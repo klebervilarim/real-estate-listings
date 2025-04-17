@@ -1,0 +1,19 @@
+[
+    {
+      "title": "Apartamento no Centro",
+      "price": 2000,
+      "address": "Rua das Flores, 123",
+      "city": "São Paulo",
+      "bedrooms": 2,
+      "bathrooms": 1
+    },
+    {
+      "title": "Casa com quintal",
+      "price": 3500,
+      "address": "Av. Brasil, 456",
+      "city": "Rio de Janeiro",
+      "bedrooms": 3,
+      "bathrooms": 2
+    }
+  ]
+  

@@ -1,0 +1,79 @@
+<div class="container mt-4" ng-controller="AwsController">
+  <h2>Serviços AWS</h2>
+
+  <!-- Status da conexão -->
+  <p class="alert"
+     ng-class="{
+       'alert-success': awsStatus.includes('Conectada'),
+       'alert-danger': awsStatus.includes('Não conectada')
+     }" ng-show="awsStatus">
+    {{ awsStatus }}
+  </p>
+
+  <!-- Combo de serviços -->
+  <select ng-model="selectedService"
+          ng-options="s for s in awsServices"
+          ng-change="loadServiceData()"
+          class="form-control mb-3"
+          ng-disabled="awsStatus.includes('Não conectada')">
+    <option value="">Selecione um serviço</option>
+  </select>
+
+  <!-- Tabela geral -->
+  <table class="table table-bordered" ng-if="serviceData.length">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>ARN</th>
+        <th>Data de Criação</th>
+        <th ng-if="selectedService.toLowerCase() === 'ec2'">Estado</th>
+        <th>Ação</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="item in serviceData">
+        <td>{{ item.name || item.id }}</td>
+        <td>{{ item.arn }}</td>
+        <td>{{ item.creationDate || (item.launchTime | date:'medium') }}</td>
+
+        <!-- Estado para EC2 -->
+        <td ng-if="selectedService.toLowerCase() === 'ec2'">
+          <span ng-class="{
+            'text-success': item.state === 'running',
+            'text-danger': item.state === 'stopped',
+            'text-warning': item.state !== 'running' && item.state !== 'stopped'
+          }">
+            {{ item.state }}
+          </span>
+        </td>
+
+        <!-- Ações -->
+        <td>
+          <!-- Botão EC2 -->
+          <button ng-if="selectedService.toLowerCase() === 'ec2'"
+                  class="btn btn-danger btn-sm"
+                  ng-click="stopInstance(item.id)"
+                  ng-disabled="item.state !== 'running'">
+            Desligar
+          </button>
+
+          <!-- Botão Lambda -->
+          <button ng-if="selectedService.toLowerCase() === 'lambda'"
+                  class="btn btn-info btn-sm"
+                  ng-click="viewLambdaCode(item.name)">
+            Editar
+          </button>
+
+          <!-- Nada para outros -->
+          <span ng-if="selectedService.toLowerCase() !== 'ec2' && selectedService.toLowerCase() !== 'lambda'" class="text-muted">—</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Código Lambda -->
+  <div ng-if="lambdaCode">
+    <h4>Código da Função: {{ selectedLambdaName }}</h4>
+    <pre class="bg-light p-3 border rounded" style="white-space: pre-wrap;">{{ lambdaCode }}</pre>
+  </div>
+</div>

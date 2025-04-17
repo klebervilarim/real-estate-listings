@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
 <html>
 
 <head>
@@ -24,42 +26,37 @@
     <script src="controllers/listings.controller.js"></script>
     <script src="controllers/rentals.controller.js"></script>
     <script src="controllers/add-property.controller.js"></script>
+    <script src="controllers/aws.controller.js"></script>
+    
+
 
     <!-- Services -->
     <script src="services/listings.service.js"></script>
     <script src="services/rentals.service.js"></script>
+    <script src="services/aws.service.js"></script>
+
 
 </head>
 
 <body ng-app="RealEstateApp">
-    <div class="nav">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <ul class="links">
-                        <li><a href="#!">Home</a></li>
-                        <li><a href="#!listings">For Sale</a></li>
-                        <li><a href="#!rentals">For Rent</a></li>
-                    </ul>
-                    <ul class="form">
-                        <li><a href="#!add-property" class="btn btn-info">Add Sale or Rental Listing</a></li>
-                    </ul>
-                </div>
-            </div>
+    <div class="nav-itau">
+        <div class="container nav-container">
+            <ul class="links">
+                <li><a href="#!">Home</a></li>
+                <li><a href="#!listings">For Sale</a></li>
+                <li><a href="#!rentals">For Rent</a></li>
+                <li><a href="#!/aws">Serviços AWS</a></li>
+
+            </ul>
+            <ul class="form">
+                <li><a href="#!add-property" class="btn btn-info">Add Sale or Rental Listing</a></li>
+            </ul>
         </div>
     </div>
-    <!-- <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="jumbotron">
-                    <h1>Real Estate App</h1>
-                </div>
-            </div>
-        </div>
-    </div> -->
+    <div class="espaco-pos-header"></div>
+
     <div class="container main-content">
         <ng-view></ng-view>
     </div>
 </body>
-
 </html>

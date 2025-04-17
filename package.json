@@ -10,13 +10,20 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.782.0",
+    "@aws-sdk/lib-dynamodb": "^3.782.0",
+    "adm-zip": "^0.5.16",
     "angular": "^1.6.6",
     "angular-route": "^1.6.6",
+    "aws-sdk": "^2.1692.0",
+    "axios": "^1.8.4",
     "body-parser": "^1.17.2",
     "bootstrap": "^3.3.7",
+    "dotenv": "^16.4.7",
     "express": "^4.15.4",
     "mongodb": "^2.2.31",
-    "mongoose": "^4.10.8",
-    "sweetalert2": "^6.6.9"
+    "mongoose": "^7.8.6",
+    "sweetalert2": "^6.6.9",
+    "weekend-5-challenge": "file:"
   }
 }

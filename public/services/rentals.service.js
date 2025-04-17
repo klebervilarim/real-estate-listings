@@ -1,3 +1,4 @@
+//rentals.service.js
 app.service('RentalService', ['$http', '$location', function ($http, $location) {
     var self = this;
 

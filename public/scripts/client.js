@@ -17,6 +17,10 @@ app.config(['$routeProvider', function ($routeProvider) {
             templateUrl: 'views/add-property.html',
             controller: 'AddPropertyController as vm'
         })
+        .when('/aws', {
+            templateUrl: 'views/aws.html',
+            controller: 'AwsController as vm'
+        })
         .otherwise({
             redirectTo: '/'
         });

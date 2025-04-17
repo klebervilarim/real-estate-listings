@@ -43,3 +43,8 @@ app.service('ListingService', ['$http', '$location', function ($http, $location)
     };
 
 }]);
+
+app.get('/api/list-services', (req, res) => {
+    res.json(['EC2', 'S3', 'Lambda']);
+  });
+  

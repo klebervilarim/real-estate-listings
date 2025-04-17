@@ -1,0 +1,268 @@
+{
+  "rentals": [
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "67f06cc93b3dfd35f785a38e" },
+          "city": { "S": "Victoria" },
+          "sqft": { "N": "600" },
+          "rent": { "N": "18000" },
+          "__v": { "N": "0" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "67f06cc93b3dfd35f785a3a5" },
+          "city": { "S": "Mahtomedi" },
+          "sqft": { "N": "600" },
+          "rent": { "N": "11400" },
+          "__v": { "N": "0" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "67f06cc93b3dfd35f785a3a9" },
+          "city": { "S": "St. Joseph" },
+          "sqft": { "N": "2100" },
+          "rent": { "N": "31500" },
+          "__v": { "N": "0" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "67f06cc93b3dfd35f785a3ab" },
+          "city": { "S": "Mahtomedi" },
+          "sqft": { "N": "900" },
+          "rent": { "N": "13500" },
+          "__v": { "N": "0" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "67f06cc93b3dfd35f785a3a1" },
+          "city": { "S": "Oak Park Heights" },
+          "sqft": { "N": "300" },
+          "rent": { "N": "3600" },
+          "__v": { "N": "0" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "67f06cc93b3dfd35f785a39f" },
+          "city": { "S": "Bemidji" },
+          "sqft": { "N": "1800" },
+          "rent": { "N": "52200" },
+          "__v": { "N": "0" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "67f06cc93b3dfd35f785a3a4" },
+          "city": { "S": "Waconia" },
+          "sqft": { "N": "700" },
+          "rent": { "N": "18900" },
+          "__v": { "N": "0" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "67f06cc93b3dfd35f785a38d" },
+          "city": { "S": "Falcon Heights" },
+          "sqft": { "N": "1700" },
+          "rent": { "N": "18700" },
+          "__v": { "N": "0" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "67f06cc93b3dfd35f785a3a6" },
+          "city": { "S": "Hutchinson" },
+          "sqft": { "N": "1800" },
+          "rent": { "N": "30600" },
+          "__v": { "N": "0" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "67f06cc93b3dfd35f785a3a7" },
+          "city": { "S": "Champlin" },
+          "sqft": { "N": "1200" },
+          "rent": { "N": "31200" },
+          "__v": { "N": "0" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "67f06cc93b3dfd35f785a3aa" },
+          "city": { "S": "Mound" },
+          "sqft": { "N": "900" },
+          "rent": { "N": "10800" },
+          "__v": { "N": "0" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "67f06cc93b3dfd35f785a3a3" },
+          "city": { "S": "White Bear Lake" },
+          "sqft": { "N": "1300" },
+          "rent": { "N": "14300" },
+          "__v": { "N": "0" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "67f06cc93b3dfd35f785a3a0" },
+          "city": { "S": "New Brighton" },
+          "sqft": { "N": "2200" },
+          "rent": { "N": "52800" },
+          "__v": { "N": "0" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "67f06cc93b3dfd35f785a3a2" },
+          "city": { "S": "Mound" },
+          "sqft": { "N": "600" },
+          "rent": { "N": "6000" },
+          "__v": { "N": "0" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "67f06cc93b3dfd35f785a3a8" },
+          "city": { "S": "Dayton" },
+          "sqft": { "N": "800" },
+          "rent": { "N": "9600" },
+          "__v": { "N": "0" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "67f06cc93b3dfd35f785a38c" },
+          "city": { "S": "Kasson" },
+          "sqft": { "N": "800" },
+          "rent": { "N": "12800" },
+          "__v": { "N": "0" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "67f06cc93b3dfd35f785a38f" },
+          "city": { "S": "Anoka" },
+          "sqft": { "N": "900" },
+          "rent": { "N": "22500" },
+          "__v": { "N": "0" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "67f06cc93b3dfd35f785a392" },
+          "city": { "S": "Maplewood" },
+          "sqft": { "N": "1300" },
+          "rent": { "N": "29900" },
+          "__v": { "N": "0" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "67f06cc93b3dfd35f785a391" },
+          "city": { "S": "Mounds View" },
+          "sqft": { "N": "2300" },
+          "rent": { "N": "32200" },
+          "__v": { "N": "0" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "67f06cc93b3dfd35f785a390" },
+          "city": { "S": "Savage" },
+          "sqft": { "N": "700" },
+          "rent": { "N": "16100" },
+          "__v": { "N": "0" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "67f06cc93b3dfd35f785a393" },
+          "city": { "S": "Marshall" },
+          "sqft": { "N": "300" },
+          "rent": { "N": "3300" },
+          "__v": { "N": "0" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "67f06cc93b3dfd35f785a394" },
+          "city": { "S": "Robbinsdale" },
+          "sqft": { "N": "1500" },
+          "rent": { "N": "36000" },
+          "__v": { "N": "0" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "67f06cc93b3dfd35f785a396" },
+          "city": { "S": "Kasson" },
+          "sqft": { "N": "2400" },
+          "rent": { "N": "50400" },
+          "__v": { "N": "0" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "67f06cc93b3dfd35f785a395" },
+          "city": { "S": "Lake City" },
+          "sqft": { "N": "1000" },
+          "rent": { "N": "19000" },
+          "__v": { "N": "0" }
+        }
+      }
+    }
+  ]
+}
