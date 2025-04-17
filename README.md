@@ -40,6 +40,6 @@ There is no need to do any initial setup on the database. The following commands
 
 <img src="public/assets/real-estate-listings.png" width="800" />
 
-## Authors
+## Authors #
 
 * **Sam Fortin** - [Github](https://github.com/sjfortin)
